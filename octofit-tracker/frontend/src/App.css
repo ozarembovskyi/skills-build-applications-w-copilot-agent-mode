@@ -1,0 +1,85 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #0077b6 0%, #00b4d8 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+}
+.nav-link {
+  color: #f1faee !important;
+  font-weight: 500;
+  margin-right: 8px;
+  transition: color 0.2s;
+}
+.nav-link.active, .nav-link:hover {
+  color: #ffd166 !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #0077b6;
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  background: #fff;
+}
+.card-title {
+  color: #00b4d8;
+}
+
+.table {
+  background: #f8f9fa;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table-primary th {
+  background: #00b4d8 !important;
+  color: #fff;
+}
+.btn-primary, .btn-primary:focus {
+  background: linear-gradient(90deg, #0077b6 0%, #00b4d8 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #00b4d8 0%, #0077b6 100%);
+  color: #ffd166;
+}
+
+a {
+  color: #00b4d8;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #0077b6;
+}
+
+.alert-danger {
+  background: #ffe5e5;
+  color: #d90429;
+  border: none;
+}
+
+/* Favicon tweaks */
+link[rel="icon"] {
+  border-radius: 50%;
+}
